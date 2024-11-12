@@ -21,12 +21,17 @@ ollama:
 pipelines:
   # -- Automatically install Pipelines chart to extend Open WebUI functionality using Pipelines: https://github.com/open-webui/pipelines
   enabled: true
+  persistence:
+    enabled: true
+    size: 10Gi
+    # -- Use existingClaim if you want to re-use an existing Open WebUI PVC instead of creating a new one
+    existingClaim: "open-webui-pipelines"
   # -- This section can be used to pass required environment variables to your pipelines (e.g. Langfuse hostname)
   extraEnvVars: []
 
 tika:
   # -- Automatically install Apache Tika to extend Open WebUI
-  enabled: false
+  enabled: true
 
 # -- A list of Ollama API endpoints. These can be added in lieu of automatically installing the Ollama Helm chart, or in addition to it.
 ollamaUrls: []

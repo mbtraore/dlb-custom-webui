@@ -11,7 +11,39 @@ entries:
               url: https://github.com/ollama/ollama/releases/tag/v0.4.0
     apiVersion: v2
     appVersion: 0.4.0
-    created: "2024-11-12T17:58:22.273283+01:00"
+    created: "2024-11-12T18:22:28.002105+01:00"
+    description: Get up and running with large language models locally.
+    digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
+    home: https://ollama.ai/
+    icon: https://ollama.ai/public/ollama.png
+    keywords:
+    - ai
+    - llm
+    - llama
+    - mistral
+    kubeVersion: ^1.16.0-0
+    maintainers:
+    - email: contact@otwld.com
+      name: OTWLD
+    name: ollama
+    sources:
+    - https://github.com/ollama/ollama
+    - https://github.com/otwld/ollama-helm
+    type: application
+    urls:
+    - https://mbtraore.github.io/dlb-custom-webui/ollama-0.64.0.tgz
+    version: 0.64.0
+  - annotations:
+      artifacthub.io/category: ai-machine-learning
+      artifacthub.io/changes: |
+        - kind: changed
+          description: upgrade app version to 0.4.0
+          links:
+            - name: Ollama release v0.4.0
+              url: https://github.com/ollama/ollama/releases/tag/v0.4.0
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2024-11-12T18:22:28.015758+01:00"
     description: Get up and running with large language models locally.
     digest: c65b53d26f1195b33cb6713fb2e24dd98abd88f25f07b1e363cd32f913776573
     home: https://ollama.ai/
@@ -38,7 +70,7 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: 0.3.35
-    created: "2024-11-12T17:58:22.27152+01:00"
+    created: "2024-11-12T18:22:28.012027+01:00"
     dependencies:
     - condition: ollama.enabled
       import-values:
@@ -60,7 +92,7 @@ entries:
       version: '>=2.9.0'
     description: "Open WebUI: A User-Friendly Web Interface for Chat Interactions
       \U0001F44B"
-    digest: f9e1050b05fcfbb798944510506f0d10f39034aea041357602f9fedd951cdb9e
+    digest: 01d0ba87894cf63f3d80ee625284d00754b7820f8c804bf7ee97ff5c3d26a4d9
     home: https://www.openwebui.com/
     icon: https://raw.githubusercontent.com/open-webui/open-webui/main/static/favicon.png
     keywords:
@@ -81,9 +113,9 @@ entries:
       licenses: MIT
     apiVersion: v2
     appVersion: alpha
-    created: "2024-11-12T17:58:22.274117+01:00"
+    created: "2024-11-12T18:22:28.016318+01:00"
     description: 'Pipelines: UI-Agnostic OpenAI API Plugin Framework'
-    digest: 18111691ccd2237e6b3775dab15e13f7e03f366fc7f4e4edb7d5e9bf3cb2263b
+    digest: ab13acb3869193ec3fcdea3c0ff59e5ef85d997322bd7b2444cdbfce998709cc
     home: https://github.com/open-webui/pipelines
     icon: https://github.com/open-webui/pipelines/raw/main/header.png
     keywords:
@@ -100,7 +132,39 @@ entries:
   tika:
   - apiVersion: v2
     appVersion: 2.9.0.0
-    created: "2024-11-12T17:58:22.278132+01:00"
+    created: "2024-11-12T18:22:28.013983+01:00"
+    description: The official Helm chart to deploy Apache Tika on Kubernetes
+    digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
+    home: https://tika.apache.org
+    icon: https://tika.apache.org/tika.png
+    keywords:
+    - apache
+    - tika
+    - apache-tika
+    - tika-helm
+    maintainers:
+    - email: lewismc@apache.org
+      name: lewismc
+      url: https://github.com/lewismc
+    - name: stijnbrouwers
+      url: https://github.com/stijnbrouwers
+    - name: philipsoutham
+      url: https://github.com/philipsoutham
+    - name: frascu
+      url: https://github.com/frascu
+    - name: euven
+      url: https://github.com/euven
+    name: tika
+    sources:
+    - https://github.com/apache/tika
+    - https://github.com/apache/tika-helm
+    type: application
+    urls:
+    - https://mbtraore.github.io/dlb-custom-webui/tika-2.9.0.tgz
+    version: 2.9.0
+  - apiVersion: v2
+    appVersion: 2.9.0.0
+    created: "2024-11-12T18:22:28.018226+01:00"
     description: The official Helm chart to deploy Apache Tika on Kubernetes
     digest: ca9fa418bcb83afc1b340d90563bedc71a83a6434a2c7c528ddaba284a55c427
     home: https://tika.apache.org
@@ -130,4 +194,4 @@ entries:
     urls:
     - https://mbtraore.github.io/dlb-custom-webui/charts/tika-2.9.0.tgz
     version: 2.9.0
-generated: "2024-11-12T17:58:22.266221+01:00"
+generated: "2024-11-12T18:22:27.999689+01:00"
